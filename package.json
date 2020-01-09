@@ -1,0 +1,35 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "Tailwind, Gulp 4 and Browsersync starter based on Tailwind Starter by simonswiss.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.4.1",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "tailwindcss": "^1.1.4"
+  },
+  "keywords": [
+    "tailwind",
+    "utility-first",
+    "CSS",
+    "boilerplate",
+    "gulp",
+    "browser-sync"
+  ],
+  "author": "tayanderson",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-purgecss": "^1.2.0"
+  }
+}
